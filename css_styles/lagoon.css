@@ -1,0 +1,57 @@
+/*
+  File:     lagoon.css
+  Author:   Insiya Bambot
+  Website:  http://insiyabambot.wordpress.com/
+  Project:  Colorful Specs
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono&display=swap');
+
+::selection {
+    background-color: #d2d2d2;
+}
+
+body {
+    width: 80vw;
+    margin: 1.5em auto;
+    font-size: 18px;
+    line-height: 1.5em;
+    background: #e8f6ff;
+    color: #1b262c;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #781d07;
+}
+
+a:hover {
+    color: #0f4c75;
+}
+
+a:active {
+  color: #3282b8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1em;
+    margin-top: 1.25em;
+    color: #0f4c75;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+li, dd {
+    margin-bottom: 0.5em;
+}
+
+tt, code, kbd, samp {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #bad6e6;
+    border-radius: 3px;
+    padding: 0 .05em;
+}

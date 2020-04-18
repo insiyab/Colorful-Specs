@@ -1,0 +1,57 @@
+/*
+  File:     forest.css
+  Author:   Insiya Bambot
+  Website:  http://insiyabambot.wordpress.com/
+  Project:  Colorful Specs
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono&display=swap');
+
+::selection {
+    background-color: #EEE3C2;
+}
+
+body {
+    width: 80vw;
+    margin: 1.5em auto;
+    font-size: 18px;
+    line-height: 1.5em;
+    background: #e3edd1;
+    color: #29530b;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #015252;
+}
+
+a:hover {
+    color: #02a8a8;
+}
+
+a:active {
+  color: #42e6a4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1em;
+    margin-top: 1.25em;
+    color: #183603;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+li, dd {
+    margin-bottom: 0.5em;
+}
+
+tt, code, kbd, samp {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #c4b88f;
+    border-radius: 3px;
+    padding: 0 .05em;
+}

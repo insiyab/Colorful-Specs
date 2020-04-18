@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Colorful Specs",
+  "description": "Colorful Specs provides a variety of colorful themes to make your project instructions more readable.",
+  "permissions": ["storage"],
+  "version": "1.0",
+  "icons": { "16": "icons/icon16.png",
+             "32": "icons/icon32.png",
+            "128": "icons/icon128.png" },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://web.cs.ucla.edu/classes/*",
+        "*://www.lasr.cs.ucla.edu/classes/*",
+        "*://yellowstone.cs.ucla.edu/cs143/*",
+        "*://isi.deterlab.net/file*",
+        "*://web.cs.ucla.edu/~ravi/CS134*/assignment*"
+      ],
+      "js": ["src/content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "src/popup.html",
+    "default_title": "Colorful Specs",
+    "default_icon": "icons/icon32.png"
+  },
+  "web_accessible_resources":[
+    "css_styles/*"
+  ]
+}

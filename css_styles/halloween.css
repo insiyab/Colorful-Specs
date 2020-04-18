@@ -1,0 +1,57 @@
+/*
+  File:     halloween.css
+  Author:   Insiya Bambot
+  Website:  http://insiyabambot.wordpress.com/
+  Project:  Colorful Specs
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono&display=swap');
+
+::selection {
+    background-color: #a7a7a7;
+}
+
+body {
+    width: 80vw;
+    margin: 1.5em auto;
+    font-size: 18px;
+    line-height: 1.5em;
+    background: #1a1d22;
+    color: #bfc5d3;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #e89440;
+}
+
+a:hover {
+    color: #ffce9c;
+}
+
+a:active {
+  color: #dddd00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1em;
+    margin-top: 1.25em;
+    color: #dbb691;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+li, dd {
+    margin-bottom: 0.5em;
+}
+
+tt, code, kbd, samp {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #2c2f33;
+    border-radius: 3px;
+    padding: 0 .05em;
+}

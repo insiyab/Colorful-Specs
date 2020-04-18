@@ -12,7 +12,7 @@ git clone https://github.com/insiyab/Colorful-Specs.git
 
 3. In `src/popup.html`, add a new button with the name of your new theme below the existing button elements. Replace `<your_theme>` with the name of your CSS file without the `.css` file extension. You can replace `My Theme` with whatever name you'd like.
 
-```
+```html
 <!-- Add more buttons here -->
 <button id="<your_theme>"> My Theme </button>
 ```
@@ -21,7 +21,7 @@ You may need to make the popup window bigger to see your button. To do this, fin
 
 4. In `src/popup.js`, add an event listener for the button you just made. Do this on line 31 under the event listeners for the other buttons.
 
-```
+```javascript
 // Add more event listeners here
 document.getElementById('<your_theme>').addEventListener('click', function(){
   pick_theme('<your_theme>');
@@ -30,10 +30,14 @@ document.getElementById('<your_theme>').addEventListener('click', function(){
 
 5. In `src/content.js`, add the name of your CSS file to the `themes` array on line 9.
 
-```
+```javascript
 var themes = ['forest', ... , '<your_theme>'];
 ```
 
-6. To see the modified extension in action, go to [chrome://extensions/](chrome://extensions/) in Google Chrome. Turn on `Developer Mode` using the slider in the top right corner, and then click `Load Unpacked` on the top left. Navigate to and choose the Colorful Specs folder.
+6. To see the modified extension in action, go to `chrome://extensions/` in Google Chrome. 
 
-That's it! You should be able to see the Colorful Specs extension in Chrome, complete with your new theme.
+7. Turn on `Developer Mode` using the slider in the top right corner, and then click `Load Unpacked` on the top left. 
+
+8. Navigate to and select the Colorful Specs folder.
+
+That's it! You should now be able to see the Colorful Specs extension in your Chrome browser, complete with your new theme.

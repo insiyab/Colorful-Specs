@@ -52,5 +52,6 @@ li, dd {
 tt, code, kbd, samp {
     font-family: 'Roboto Mono', monospace;
     background-color: #ceffc2;
+    border-radius: 3px;
     padding: 0 .05em;
 }

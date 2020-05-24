@@ -8,7 +8,7 @@
 git clone https://github.com/insiyab/Colorful-Specs.git
 ```
 
-    If `git` isn't your thing, you can also use the bright green button above that says `Clone or download` to download the zip file.
+If `git` isn't your thing, you can also use the bright green button above that says `Clone or download` to download the zip file.
 
 2. Make a CSS file with your new theme: `<your_theme>.css`. To make the later steps easier on you, make sure the name of your file is all lowercase with no spaces. Put your CSS file inside the `css_styles` folder.
 
@@ -19,7 +19,7 @@ git clone https://github.com/insiyab/Colorful-Specs.git
 <button id="<your_theme>"> My Theme </button>
 ```
 
-    You may need to make the popup window bigger to see your button. To do this, find the CSS selector for `body` in `src/popup.html` (near line 40). Then change `height:190px;` (near line 43) to `height:230px;`. (In general, add 40px for each new row of buttons.)
+You may need to make the popup window bigger to see your button. To do this, find the CSS selector for `body` in `src/popup.html` (near line 40). Then change `height:190px;` (near line 43) to `height:230px;`. (In general, add 40px for each new row of buttons.)
 
 4. In `src/popup.js`, add an event listener for the button you just made. Do this on line 31 under the event listeners for the other buttons.
 

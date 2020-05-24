@@ -12,7 +12,7 @@ Colorful Specs is a Google Chrome extension that makes your project specs more r
 git clone https://github.com/insiyab/Colorful-Specs.git
 ```
 
-    If `git` isn't your thing, you can also use the bright green button above that says `Clone or download` to download the zip file.
+If `git` isn't your thing, you can also use the bright green button above that says `Clone or download` to download the zip file.
 
 2. Go to `chrome://extensions/` in Google Chrome.
 
